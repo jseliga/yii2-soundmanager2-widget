@@ -1,4 +1,12 @@
 {
+    "name": "jseliga/yii2-soundmanager2-widget",
+    "description": "",
+    "autoload": {
+        "psr-4": {
+            "jseliga\\soundmanager2\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "^2.0",
         "npm-asset/soundmanager2": "^2.97"
