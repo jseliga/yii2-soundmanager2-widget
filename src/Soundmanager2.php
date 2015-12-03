@@ -124,6 +124,6 @@ class Soundmanager2 extends Widget {
             $sounds .= "soundManager.createSound(" . Json::encode($this->getSoundOptions($id)) . ");";
         }
 
-        return new JsExpression("function () \{$sounds\}");
+        return new JsExpression("function () {{$sounds}}");
     }
 }
