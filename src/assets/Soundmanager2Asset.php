@@ -12,6 +12,6 @@ class Soundmanager2Asset extends AssetBundle {
     public $sourcePath = "@bower/soundmanager2";
 
     public $js = [
-        "script/soundmanager2-min-js"
+        "script/soundmanager2-jsmin.js"
     ];
 }
