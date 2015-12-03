@@ -17,13 +17,11 @@ class Soundmanager2 extends Widget {
     const EVENT_ONREADY = "onready",
         EVENT_ONLOAD = "onload";
 
-    public $sounds;
+    public $sounds = [];
 
-    public $clientOptions;
+    public $clientOptions = [];
 
-    public $soundOptions;
-
-
+    public $soundOptions = [];
 
     /**
      * @var AssetBundle
