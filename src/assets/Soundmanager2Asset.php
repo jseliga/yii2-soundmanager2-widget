@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
  * @package jseliga\soundmanager2\assets
  */
 class Soundmanager2Asset extends AssetBundle {
-    public $sourcePath = "@npm/soundmanager2";
+    public $sourcePath = "@bower/bower-asset/soundmanager2";
 
     public $js = [
         "script/soundmanager2-min-js"

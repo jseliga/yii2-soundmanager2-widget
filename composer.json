@@ -9,6 +9,6 @@
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "^2.0",
-        "npm-asset/soundmanager2": "^2.97"
+        "bower-asset/soundmanager2": "^2.97"
     }
 }
