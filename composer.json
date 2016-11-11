@@ -6,9 +6,10 @@
             "jseliga\\soundmanager2\\": "src"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "yiisoft/yii2": "^2.0",
-        "bower-asset/soundmanager2": "^2.97"
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6",
+        "bower-asset/soundmanager2": "@dev"
     }
 }
