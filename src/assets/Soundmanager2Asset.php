@@ -19,7 +19,7 @@ class Soundmanager2Asset extends AssetBundle {
     /**
      * @var string Source path of soundmanager2 assets.
      */
-    public $sourcePath = "@bower/soundmanager2";
+    public $sourcePath = "@npm/soundmanager2";
 
     /**
      * @var array Required javascript files.
